@@ -1,0 +1,7 @@
+resources:
+  - all.yaml
+patches:
+  - target:
+      kind: Service
+      name: "release-name-my-app"
+    path: patch.yaml
